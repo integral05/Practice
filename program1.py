@@ -1,0 +1,21 @@
+a= int(input("Enter Your Value for a:"))
+b= int(input("Enter Your Value for b:"))
+print (a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+print(a//b)
+print(type(a))
+print(type(b))
+print(type(a/b))
+
+#relational operators
+print(a<b)
+print(a<=b)
+print(a>b)
+print(a>=b)
+print(a==b)
+print(a!=b)
+
