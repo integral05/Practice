@@ -157,7 +157,7 @@
 from threading import *
 from time import sleep
 
-bsObj=BoundedSemaphore(3)
+bsObj=BoundedSemaphore()
 
 def display(name):
     bsObj.acquire()
